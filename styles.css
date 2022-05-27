@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(238, 234, 233);
+  }
+  
+  .navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:auto;
+    overflow: hidden;
+  }
+  
+  .navLink , .navFix {
+    float: left;
+    padding: 10px 16px;
+  }
+  
+figure {
+  min-width: 150px;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 5px;
+  padding: 5px;
+}
+
+  .para1 { 
+    padding: 5px;
+    letter-spacing: 1px;
+    background-color: rgb(169, 180, 218);
+    color:rgb(230, 220, 220);
+    line-height: 1;
+  }
+  
+  h1 {
+    font-family: Inter-Bold;
+    color: rgb(105, 38, 44);
+  }
+  
+  h3 {
+    font-family: Inter-Bold;
+
+    color: rgba(15, 7, 126, 0.949);
+    text-align: center;
+  }
+  
+  h4 {
+    text-align: right;
+  }
+  p { 
+    font-family: Inter;
+    padding: 5px;
+    letter-spacing: 0.5px;
+    line-height: 1;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #bba6a6;
+  }
+  
+  li a {
+    font-family: Inter;
+    display: block;
+    color: rgb(49, 18, 18);
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: rgb(56, 108, 151);
+    padding: 0px 3px;
+    color: rgb(231, 198, 198);
+  }
+  ol {
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Inter; src:url('fonts/Inter/Inter-Regular.ttf') ;
+  }
+  @font-face {
+    font-family: Inter-Bold; src:url('fonts/Inter/Inter-Bold.ttf') ;
+  }
+  
