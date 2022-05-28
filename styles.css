@@ -12,9 +12,6 @@ body {
     padding: 0;
     width:auto;
     overflow: hidden;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     background-color: #bba6a6;
   }
   
@@ -41,6 +38,7 @@ figure {
     background-color: rgb(169, 180, 218);
     color:rgb(114, 83, 83);
     line-height: 1;
+    overflow:hidden;
   }
   
   h1 {
@@ -55,9 +53,6 @@ figure {
     text-align: center;
   }
   
-  h4 {
-    text-align: right;
-  }
   p { 
     padding: 5px;
     letter-spacing: 0.5px;
@@ -67,7 +62,7 @@ figure {
   
   li a {
     display: block;
-    color: rgb(49, 18, 18);
+    color: rgb(93, 34, 34);
     text-decoration: none;
   }
   
@@ -76,6 +71,7 @@ figure {
     background-color: rgb(56, 108, 151);
     padding: 0px 3px;
     color: rgb(231, 198, 198);
+    overflow: hidden;
   }
   ol {
     font-style: italic;
